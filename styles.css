@@ -1,0 +1,230 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+}
+.card{
+  text-align: center;
+}
+.feedback-img{
+  border-radius: 100%;
+  float: left;
+  width: 20%;
+}
+.rating-card{
+  margin: 2rem;
+  height: 3.3rem;
+  width: 32rem;
+  background-color: #F7F2F7;
+}
+.title-heading{
+  font-family: 'Spartan', sans-serif;
+  color: #502050;
+  font-size: 3.125rem;
+  text-align: left;
+  font-weight: 800;
+}
+.top-container{
+  padding: 7% 15%;
+}
+.fas{
+  color: #f0a500;
+}
+.title-paragraph{
+  text-align: left;
+  color: #686d76;
+  font-size: 1.05rem;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+}
+.feedback-cards{
+  padding: 2% 15%;
+}
+.each-card{
+  text-align: left;
+  color: #fff;
+  background-color: #502050;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.ratings{
+  color: #502050;
+  font-weight: 800;
+}
+.card1{
+margin-bottom: 1.4rem;
+}
+.card2{
+  margin-left: 6rem;
+  margin-bottom: 1.4rem;
+  margin-top: 1.4rem;
+}
+.card3{
+  margin-left: 12rem;
+  margin-top: 1.4rem;
+}
+.each1{
+  bottom: 3.125rem;
+}
+.each2{
+  bottom: 1.563rem;
+}
+.verified-buyer{
+  color: #93329e;
+}
+.name-para{
+  padding-left: 4.5rem;
+  padding-top: 0.18rem;
+}
+.each-coloum{
+  padding-bottom: 1.5rem;
+}
+@media only screen and (max-width: 468px) and (min-width:281px) {
+  .rating-card{
+    height: 6rem;
+  }
+  .title-heading{
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .card1{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card2{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card3{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .rating-card{
+    width: 20rem;
+  }
+  .each-card{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .title-paragraph{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .rating-card{
+    height: 6em;
+  }
+  .title-heading{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .card1{
+    margin-left: 0.5rem;
+    right: 2.5rem;
+  }
+  .card2{
+    margin-left: 0.5rem;
+    right: 2.5rem;
+  }
+  .card3{
+    margin-left: 0.5rem;
+    right: 2.5rem;
+  }
+  .rating-card{
+    width: 17em;
+  }
+  .title-paragraph{
+    text-align: center;
+  }
+  .each-card{
+    padding: 0.3rem;
+    font-size: 0.6rem;
+  }
+  .title-heading{
+    text-align: center;
+  }
+}
+@media only screen and (max-width:1024px) and (min-width:769px) {
+  .rating-card{
+    height: 5rem;
+  }
+  .card1{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card2{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card3{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .title-paragraph{
+    text-align: center;
+  }
+  .title-heading{
+    text-align: center;
+  }
+  .each-card{
+    padding: 0.3rem;
+  }
+  .rating-paragraph{
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width:540px) and (min-width:469px) {
+  .rating-card{
+    height: 5rem;
+    width: 25rem;
+  }
+  .card1{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card2{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card3{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .title-paragraph{
+    text-align: center;
+  }
+  .title-heading{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (max-width:768px) and (min-width:541px) {
+  .rating-card{
+    height: 5rem;
+  }
+  .card1{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card2{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .card3{
+    margin-left: 1rem;
+    right: 2.5rem;
+  }
+  .title-paragraph{
+    text-align: center;
+  }
+  .title-heading{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .each-card{
+    padding: 0.1rem;
+    font-size: 0.5rem;
+  }
+  .title-paragraph{
+    font-size: 1rem;
+  }
+}
